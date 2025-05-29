@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Etkinlikler";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<div class="container">
+    <h2 class="mb-4 text-center">Etkinlikler</h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var i in Model)
+        {
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@i.Title</h5>
+                        <p class="card-text">@i.Text</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Tarih</small>
+                    </div>
+                </div>
+            </div>
+}
+    </div>
+</div>
