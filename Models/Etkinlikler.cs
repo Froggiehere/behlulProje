@@ -9,5 +9,9 @@ namespace behlul.Models
 
         [AllowNull] public string Title { get; set; }
         [AllowNull] public string Text { get; set; }
+<<<<<<< HEAD
+=======
+        [AllowNull] public string Date { get; set; }
+>>>>>>> Proje dosyası ekle.
     }
 }
