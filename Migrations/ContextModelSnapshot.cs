@@ -26,13 +26,10 @@ namespace behlul.Migrations
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(450)");
 
-<<<<<<< HEAD
-=======
                     b.Property<string>("Date")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
->>>>>>> Proje dosyası ekle.
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
